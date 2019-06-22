@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <script src="jquery-3.4.1.js"></script>
+</head>
+<link rel="stylesheet" href="base.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    body{
+        background: #f7f5f5;
+    }
+    .box{
+        width: 100%;
+        height: 0.88rem;
+        background: #c4c500;
+        padding: 0.14rem;
+        box-sizing: border-box;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    input{
+        outline: none;
+        border: none;
+        width: 100%;
+        height:0.6rem;
+        background: #ffffff;
+        text-align: center;
+    }
+    section{
+        margin-top: 0.88rem;
+        /*border-bottom: 2px solid #cccaca;*/
+    }
+
+    h2{
+        font-size: 0.28rem;
+        font-weight: normal;
+        border-bottom: 2px solid #cccaca;
+        margin-bottom: 0.1rem;
+    }
+    name{
+        display: block;
+        color: #000000;
+        font-size: 0.28rem;
+        font-weight: normal;
+        border-bottom: 1px dashed #cccaca;
+        margin-bottom: 0.10rem;
+        margin-top: 0.10rem;
+    }
+    .aside{
+        width:0.28rem;
+        position: fixed;
+        right: 0;
+        top: 6rem;
+    }
+    h3{
+        font-size: 0.28rem;
+        font-weight: normal;
+        margin-bottom: 0.1rem;
+    }
+</style>
+
+<body>
+<div class="box">
+    <input type="text" placeholder="请输入姓名，拼音，手机号码查询">
+</div>
+<main>
+    <section><h2>C</h2>
+        <name>zhangsan </name>
+        <name>lalal</name>
+    </section>
+    <section><h2>C</h2>
+        <name>zhangsan </name>
+        <name>zhangsan </name>
+        <name>lalal</name>
+    </section>
+    <section><h2>C</h2>
+        <name>zhangsan </name>
+        <name>zhangsan </name>
+        <name>lalal</name> <name>zhangsan </name>
+        <name>lalal</name>
+    </section>
+</main>
+<div class="aside">
+    <h2>b</h2>
+    <h2>c</h2>
+</div>
+
+<script src="tongxunlu.js"></script>
+</body>
+</html>
